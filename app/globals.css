@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bbg {
+  border-radius: 30px;
+  border: 0.5px solid #fff;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16.5px);
+}
