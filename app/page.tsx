@@ -1,5 +1,6 @@
 import { HeroHeader } from "./components/heroheader";
 import { SectionOne } from "./components/sections/sectionone";
+import { SectionTwo } from "./components/sections/sectiontwo";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <>
       <HeroHeader />
       <SectionOne />
+      <SectionTwo />
     </>
   );
 }
