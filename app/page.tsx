@@ -1,4 +1,6 @@
 import { HeroHeader } from "./components/heroheader";
+import { DiffSection } from "./components/sections/diffsection";
+import { FAQs } from "./components/sections/faqs";
 import { SectionOne } from "./components/sections/sectionone";
 import { SectionThree } from "./components/sections/sectionthree";
 import { SectionTwo } from "./components/sections/sectiontwo";
@@ -13,6 +15,8 @@ export default function Home() {
       <SectionTwo />
       <SectionThree />
       <Testimonials />
+      <FAQs />
+      <DiffSection />
     </>
   );
 }
