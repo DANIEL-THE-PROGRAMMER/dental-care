@@ -5,6 +5,7 @@ import { SectionOne } from "./components/sections/sectionone";
 import { SectionThree } from "./components/sections/sectionthree";
 import { SectionTwo } from "./components/sections/sectiontwo";
 import { Testimonials } from "./components/sections/testimonials";
+import { Footer } from "./components/footer";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Testimonials />
       <FAQs />
       <DiffSection />
+      <Footer />
     </>
   );
 }
